@@ -1,8 +1,6 @@
-# data/
+# data
 
-*Placeholder.* Raw BLS files go here once downloaded:
+Raw BLS files go in here. Nothing downloaded yet.
 
-- Occupational Employment and Wage Statistics (median annual wages by occupation)
-- Employment Projections (2025-2035 growth and annual openings)
-
-Each file gets its source URL and download date recorded in the project README.
+- Occupational Employment and Wage Statistics (median annual wages)
+- Employment Projections (growth and annual openings through 2035)
