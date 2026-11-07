@@ -14,7 +14,14 @@ paying jobs will also be the fastest growing ones, and that's basically what I w
 
 ## Data
 
-TODO - which BLS files I used, the links, and when I downloaded them.
+Both files come from the U.S. Bureau of Labor Statistics and I downloaded them on **November 7, 2026** by running `collect.py`:
+
+- **Occupational Employment and Wage Statistics (OEWS), May 2025** - median annual wages and how many people have each job. <https://www.bls.gov/oes/special-requests/oesm25nat.zip>
+- **Employment Projections, Table 1.2** - projected growth from 2025 to 2035, average annual openings, and the education you typically need. <https://www.bls.gov/emp/ind-occ-matrix/occupation.xlsx>
+
+`clean.py` joins the two on the SOC occupation code and pulls out the 12 occupations I picked. The cleaned file is `data/careers_clean.csv`, **12 rows**, and all 12 matched with no missing values. Fields are explained in `data/README.md`.
+
+What I left out: the raw downloads in `data/raw/` are gitignored. They're about 700 KB of BLS spreadsheets covering every occupation in the country, and I only need 12 rows of it, so there's no reason to commit the whole thing when `collect.py` re-downloads it in a few seconds. There's no personal information in any of this, since BLS reports occupation-level totals and not individual people.
 
 ## Methods
 
