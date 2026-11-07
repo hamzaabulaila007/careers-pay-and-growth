@@ -1,0 +1,23 @@
+rows: 12 of 12 I asked for
+missing values per column:
+soc_code           0
+occupation         0
+median_wage        0
+employment         0
+growth_pct         0
+annual_openings    0
+education          0
+
+soc_code                                occupation  median_wage  employment  growth_pct  annual_openings         education
+ 11-3021 Computer and Information Systems Managers       175140      670570        15.8             53.5 Bachelor's degree
+ 11-2021                        Marketing Managers       166790      395240         6.9             34.0 Bachelor's degree
+ 15-1252                       Software Developers       135980     1687890        10.2             95.3 Bachelor's degree
+ 15-1212             Information Security Analysts       129180      190650        21.0             14.1 Bachelor's degree
+ 15-2051                           Data Scientists       120230      262440        34.6             24.8 Bachelor's degree
+ 13-2051         Financial and Investment Analysts       102740      361980         7.2             24.7 Bachelor's degree
+ 13-1111                       Management Analysts       101860      898280        10.1             94.1 Bachelor's degree
+ 17-2051                           Civil Engineers       100840      367840         6.4             22.7 Bachelor's degree
+ 29-1141                         Registered Nurses        97550     3379720         5.6            180.8 Bachelor's degree
+ 13-2011                  Accountants and Auditors        83680     1449500         5.0            115.3 Bachelor's degree
+ 27-3031              Public Relations Specialists        74750      283380         1.8             23.0 Bachelor's degree
+ 25-2021                Elementary School Teachers        63970     1388390        -0.4             87.5 Bachelor's degree
